@@ -46,7 +46,7 @@ function App() {
       </header>
 
       <form className='form' onSubmit={handleSubmit}>
-        <input className='form__input' id='inputLocation' type="text" />
+        <input className='form__input' id='inputLocation' placeholder='Dimension 1 to 126' type="text" />
         
         <button className='form__button'> Find location</button>
       </form>
