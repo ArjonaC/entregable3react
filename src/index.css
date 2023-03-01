@@ -6,7 +6,7 @@
 
 html {
     font-family: 'Nunito', sans-serif;
-    background-image: url('./public/Rick and morthy.jpg');
+    background-image: url('/public/Rick and morthy.jpg');
     overflow: wrap;
 }
 
