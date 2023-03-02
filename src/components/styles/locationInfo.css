@@ -1,12 +1,13 @@
-.location__title {
+.location {
     background-color: transparent;
     box-shadow: 1px 1px 1px 2px;
     padding: 1em 1.5em;
     margin: 2.5em;
-    width: auto;
-    max-width: 700px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 0.5em;
+    
 }
 
 
@@ -32,13 +33,17 @@
     font-size: 1.3em;
     gap: 0.3em;
     text-align: center;
-    font-weight: 800;
+    font-weight: 200;
 
 }
 
 .location__label {
-    font: 100;
-    font-weight: 600;
-    color: #aaa;
+        
+    font-weight: 800;
+    color: #fdfdfd;
+}
 
+.location ul>li {
+    font-weight: 600;
+    color: #0aecfc;
 }
