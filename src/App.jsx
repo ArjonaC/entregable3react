@@ -55,7 +55,7 @@ function App() {
           <div>
           <h2 className='app__error'>🚩 Hey! You must provide a location from 1 to 126 🚩</h2>
           
-          <img className='img__error' src="./public/rick.jpg" alt="" />
+          <img className='img__error' src="/public/rick.jpg" alt="" />
 
           </div>
           
