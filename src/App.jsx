@@ -4,7 +4,7 @@ import './App.css'
 import LocationInfo from './components/LocationInfo'
 import ResidentInfo from './components/ResidentInfo'
 import getRandomLocation from './utils/getRandomLocation'
-import Rick from 'public/Rick.jpg'
+import Rick from '/public/Rick.jpg'
 
 function App() {
 
@@ -56,7 +56,7 @@ function App() {
           <div>
           <h2 className='app__error'>🚩 Hey! You must provide a location from 1 to 126 🚩</h2>
           <div>
-            <img className='app__img' src={Rick} alt='Rick' />
+            <img className='img__error' src={Rick} alt='Rick' />
           </div>
 
           </div>
