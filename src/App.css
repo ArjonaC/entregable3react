@@ -97,8 +97,6 @@
 }
 
 .img__error {
-    background-image: url("Rick and Morthy gif.gif");
-    background-repeat: no-repeat;
     display: block;
     margin: 0 auto;
     max-width: 500px;
@@ -106,7 +104,7 @@
     height: 400px;
     object-fit: cover;
     object-position: center;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .app__error {

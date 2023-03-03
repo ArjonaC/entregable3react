@@ -58,6 +58,7 @@ function App() {
           <div>
           <h2 className='app__error'>🚩 Hey! You must provide a location from 1 to 126 🚩</h2>
           <div className='img__error' >
+            <img src="/Rick and Morthy gif.gif" alt="" />
           </div>
           </div>
           :
