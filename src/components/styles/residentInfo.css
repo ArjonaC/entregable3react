@@ -3,6 +3,8 @@
     box-shadow: 1px 1px 3px 1px;
     overflow: hidden;
     max-width: 300px;
+    min-width: 200px;
+
 }
 
 .resident__header {
@@ -22,6 +24,7 @@
     border-radius: 0 0.5em 0.5em 0;
     color: #ffffff;
     font-size: 1em;
+    justify-items: center;
 }
 
 .resident__circle {
@@ -30,6 +33,7 @@
     aspect-ratio: 1;
     border-radius: 50%;
     background-color: red;
+    justify-items: start;
 
 }
 

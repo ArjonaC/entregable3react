@@ -7,7 +7,8 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 0.5em;
-    
+    flex-wrap: wrap;
+    min-width: 200px;
 }
 
 
@@ -22,8 +23,10 @@
 .location__list {
     display: flex;
     gap: 1em;
-    justify-content: space-between;
     text-transform: capitalize;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 
 
 }

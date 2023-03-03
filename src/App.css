@@ -4,8 +4,6 @@
 .App {
     padding: 2em 1.5em;
     color: white;
-    
-    
 }
 
 
@@ -16,6 +14,7 @@
     background-size: contain;
     background-position: center;
     height: 250px;
+    min-width: 200px;
 }
 
 .form {
