@@ -6,6 +6,8 @@ import ResidentInfo from './components/ResidentInfo'
 import getRandomLocation from './utils/getRandomLocation'
 
 
+
+
 function App() {
 
   const [location, setLocation] = useState()
@@ -55,8 +57,7 @@ function App() {
         hasError ?
           <div>
           <h2 className='app__error'>🚩 Hey! You must provide a location from 1 to 126 🚩</h2>
-          <div>
-            <img className='img__error' src='/public/Rick and Morthy gif.gif' alt='Rick and Morty' />
+          <div className='img__error' >
           </div>
           </div>
           :
